@@ -3,7 +3,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import helmet from 'helmet';
 import { getHealthStatus } from './utils/health.js';
-import { urlGenerator } from './services/urlGeneratorService.js';
 import { connectDB } from './utils/database.js';
 import { urlRoutes } from "./routes/urlRouter.js";
 
